@@ -41,6 +41,6 @@
   },
   "lint-staged": {
     "*.{json,js,jsx,css,scss,md}": "prettier --config .prettierrc --write",
-    "*.{js,jsx}": "eslint --cache --fix --max-warnings 0"
+    "*.{js,jsx}": "eslint --fix --max-warnings 0"
   }
 }
